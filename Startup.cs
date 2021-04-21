@@ -53,6 +53,7 @@ namespace GatewayCountries
                 .AddGraphQLServer()
                 .AddRemoteSchema("countries")
                 .AddRemoteSchema("customcountries");
+
                 //.AddAuthorization();
         }
 
